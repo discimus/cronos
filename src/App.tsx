@@ -156,11 +156,11 @@ function App() {
   return (
     <>
       <div>
-        <audio ref={audio1Ref} src='/public/level-up-3-199576.mp3'></audio>
-        <audio ref={audio2Ref} src='/public/message-incoming-2-199577.mp3'></audio>
-        <audio ref={audio3Ref} src='/public/notification-1-269296.mp3'></audio>
-        <audio ref={audio4Ref} src='/public/ui-click-97915.mp3'></audio>
-        <audio ref={audio5Ref} src='/public/click-21156.mp3'></audio>
+        <audio ref={audio1Ref} src='level-up-3-199576.mp3'></audio>
+        <audio ref={audio2Ref} src='message-incoming-2-199577.mp3'></audio>
+        <audio ref={audio3Ref} src='notification-1-269296.mp3'></audio>
+        <audio ref={audio4Ref} src='ui-click-97915.mp3'></audio>
+        <audio ref={audio5Ref} src='click-21156.mp3'></audio>
 
         <div style={mode == 'work'
           ? styles.activeLabel
