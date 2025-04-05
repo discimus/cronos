@@ -106,12 +106,6 @@ function App() {
     }
   }
 
-  function executeSound2() {
-    if (audio2Ref.current) {
-      audio2Ref.current.play()
-    }
-  }
-
   function executeSound3() {
     if (audio3Ref.current) {
       audio3Ref.current.play()
